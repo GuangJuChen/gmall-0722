@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gmall-pms:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/gmall_pms_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gmall-pms/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gmall-pms" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
