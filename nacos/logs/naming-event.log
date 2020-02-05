@@ -14,3 +14,27 @@
 
 2020-02-05 11:00:23,252 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pms-service, ips: 
 
+2020-02-05 11:06:51,125 INFO DEFAULT_GROUP@@pms-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.136.1:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 11:06:51,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pms-service, ips: 192.168.136.1:8081_true,
+
+2020-02-05 11:16:32,789 INFO DEFAULT_GROUP@@gmall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.136.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 11:16:32,789 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gmall-gateway, ips: 192.168.136.1:8888_true,
+
+2020-02-05 15:32:53,213 INFO DEFAULT_GROUP@@gmall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.136.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 15:32:53,213 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gmall-gateway, ips: 
+
+2020-02-05 15:33:50,292 INFO DEFAULT_GROUP@@gmall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.136.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 15:33:50,292 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gmall-gateway, ips: 192.168.136.1:8888_true,
+
+2020-02-05 15:36:02,375 INFO DEFAULT_GROUP@@gmall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.136.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 15:36:02,375 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gmall-gateway, ips: 
+
+2020-02-05 15:36:11,718 INFO DEFAULT_GROUP@@gmall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.136.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-02-05 15:36:11,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gmall-gateway, ips: 192.168.136.1:8888_true,
+
