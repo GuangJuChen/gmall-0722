@@ -33,6 +33,11 @@ public class AttrController {
     @Autowired
     private AttrService attrService;
 
+    @GetMapping
+    public Resp<PageVo> queryAttrsByCid(QueryCondition condition,@RequestParam("cid")Long cid,@RequestParam(value = "type",defaultValue = "1")Integer type){
+        PageVo pageVo = attrService.queryAttrsByCid(condition,cid,type);
+        return Resp.ok(pageVo);
+    }
     /**
      * 列表
      */
